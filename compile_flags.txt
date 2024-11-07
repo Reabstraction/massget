@@ -1,0 +1,10 @@
+-DDEBUG
+-xc
+-std=c23
+-Wall
+-Wextra
+-Wpedantic
+-Wno-gnu-zero-variadic-macro-arguments
+-Xanalyzer
+-analyzer-output=text
+-include src/common.h

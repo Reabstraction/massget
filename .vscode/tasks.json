@@ -1,0 +1,16 @@
+{
+    "tasks": [
+        {
+            "label": "Build Debug",
+            "type": "shell",
+            "command": "make debug",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Debug (With optimizations)",
+            "type": "shell",
+            "command": "make debugopt",
+            "problemMatcher": []
+        }
+    ]
+}

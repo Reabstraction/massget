@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch (Debug)",
+            "preLaunchTask": "Build Debug",
+            "program": "${workspaceFolder}/dist/massget_debug",
+            "args": ["example:https://example.com"],
+            "cwd": "${workspaceFolder}/debug"
+        }
+    ]
+}

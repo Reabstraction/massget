@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/clangd.json": "file:///home/luca/Projects/mass-dumper/.clangd"
+    },
+    "makefile.makeDirectory": "src"
+}
