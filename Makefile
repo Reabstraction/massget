@@ -58,9 +58,7 @@ DISTDIR=dist
 OUT_RELEASE=$(DISTDIR)/massget
 OUT_DEBUG=$(DISTDIR)/massget_debug
 
-$(shell echo $(MSYSTEM))
-
-ifeq ($(MSYSTEM),)
+ifneq ($(MSYSTEM),)
 OUT_RELEASE:=$(OUT_RELEASE).exe
 OUT_DEBUG:=$(OUT_DEBUG).exe
 endif
